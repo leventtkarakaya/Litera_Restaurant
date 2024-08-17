@@ -1,0 +1,51 @@
+{
+  "NavLinkTr": [
+    {
+      "id": "1",
+      "name": "ANA SAYFA",
+      "path": "home",
+      "offset": "-50"
+    },
+    {
+      "id": "2",
+      "name": "HAKKIMIZDA",
+      "path": "about",
+      "offset": "-50"
+    },
+    {
+      "id": "3",
+      "name": "BLOG",
+      "path": "blog",
+      "offset": "-50"
+    },
+    {
+      "id": "4",
+      "name": "GALERİ",
+      "path": "gallery",
+      "offset": "-50"
+    },
+    {
+      "id": "5",
+      "name": "İLETİŞİM",
+      "path": "contact",
+      "offset": "-50"
+    }
+  ],
+  "AboutTr": {
+    "title": "HAKKIMIZDA",
+    "title1": "Lezzet ve Estetiğin Buluşma Noktası : LİTERA RESTAURANT",
+    "p1": "2002 yılından beri Litera Restaurant olarak sizleri enfes bir yemek deneyimi ve benzersiz bir atmosferle buluşturmanın heyecanını yaşıyoruz. Lezzetli yemeklerimiz, özenle tasarlanmış mekanımız ve misafirlerimize sunduğumuz kusursuz hizmet ile unutulmaz anlar yaşatmak için buradayız.",
+    "p2": "Bizimle birlikte lezzetin, estetiğin ve unutulmaz anların keyfini çıkarmanız için sizleri Litera Restaurant’a bekliyoruz.",
+    "title2": "Gastronomiye Sanatsal Bir Dokunuş",
+    "p3": "Litera Restaurant, gastronomi dünyasına sanatsal bir bakış açısıyla yaklaşıyor. Şeflerimiz, en taze ve kaliteli malzemeleri seçerek özenle hazırlanan yemeklerle damaklarınıza unutulmaz bir yolculuk sunuyor. Her tabak, lezzetlerin mükemmel uyumunu ve görsel şöleni bir araya getiriyor.",
+    "p4": "Hem geleneksel Türk mutfağının enfes tatlarına hem de uluslararası mutfakların özgün yorumlarına yer veren menümüz, her damak zevkine hitap ediyor. Yemeklerimizin tadını, tarihi yarımada manzarasının büyüsüyle birleştirerek çıkarmanız için buradayız.",
+    "title3": "Tarihi yarımadanın büyüsüne tanıklık edin!",
+    "p5": "Biz, İstanbul'un kalbinde, tarihi yarımada manzarasıyla bütünleşmiş bir lezzet deneyimi sunmanın gururunu yaşıyoruz. Litera; İstanbul boğazı, tarihi yarımada ve Haliç'in birleştiği noktayı en iyi açıdan görmekte olup, adalar ve daha fazlasına sahip olan geniş manzarası ile dört mevsim teras mekan olarak misafirlerine hizmet vermektedir.",
+    "title4": "Özel Anlarınıza Eşlik Edin",
+    "p6": "Litera Restaurant, özel etkinlikleriniz ve kutlamalarınız için de mükemmel bir tercihtir. Doğum günleri, yıldönümleri, iş yemekleri veya romantik akşam yemekleri... Her türlü özel anınıza özel bir dokunuşla eşlik ediyoruz",
+    "p7": "Misafirlerine lezzet ve manzaranın yanı sıra müzik dolu akşamlarda sunan Litera'da Çarşamba, Cuma ve Cumartesi akşamları canlı müzik geceleri ve DJ perfomansıyla keyifli vakitler geçirebilirsiniz."
+  },
+  "MenuTr": {
+    "title": "MENÜ"
+  }
+}

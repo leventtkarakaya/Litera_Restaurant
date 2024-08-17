@@ -1,0 +1,24 @@
+.container__title {
+  text-align: center;
+  color: #a48a7a;
+  font-family: "Google Sans";
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.container {
+  padding: auto;
+  width: 100%;
+  background-color: #0f2440;
+  padding: 30px 0px;
+}
+.container > .container__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container > .container__images > a > img {
+  width: 400px;
+  height: 400px;
+}

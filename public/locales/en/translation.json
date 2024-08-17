@@ -1,0 +1,54 @@
+{
+  "NavLinkEn": [
+    {
+      "id": "1",
+      "name": "HOME",
+      "path": "home",
+      "offset": "-50"
+    },
+    {
+      "id": "2",
+      "name": "ABOUT",
+      "path": "about",
+      "offset": "-50"
+    },
+
+    {
+      "id": "3",
+      "name": "BLOG",
+      "path": "blog",
+      "offset": "-50"
+    },
+
+    {
+      "id": "4",
+      "name": "GALLERY",
+      "path": "gallery",
+      "offset": "-50"
+    },
+
+    {
+      "id": "5",
+      "name": "CONTACT",
+      "path": "contact",
+      "offset": "-50"
+    }
+  ],
+  "AboutEn": {
+    "title": "ABOUT",
+    "title1": "Meeting Point of Taste and Aesthetics: LITERA RESTAURANT",
+    "p1": "As Litera Restaurant, we have been excited to bring you together with a delicious dining experience and a unique atmosphere since 2002. We are here to provide unforgettable moments with our delicious food, carefully designed venue and the perfect service we offer to our guests",
+    "p2": "We are waiting for you at Litera Restaurant to enjoy taste, aesthetics and unforgettable moments with us.",
+    "title2": "An Artistic Touch to Gastronomy",
+    "p3": "Litera Restaurant approaches the world of gastronomy from an artistic perspective. Our chefs offer your palate an unforgettable journey with meals carefully prepared by selecting the freshest and highest quality ingredients. Each plate brings together the perfect harmony of flavors and a visual feast.",
+    "p4": "Our menu, which includes both the delicious tastes of traditional Turkish cuisine and original interpretations of international cuisine, appeals to every palate. We are here for you to enjoy our meals combined with the magic of the historical peninsula view.",
+    "title3": "Witness the magic of the historical peninsula!",
+    "p5": "We are proud to offer a taste experience integrated with the view of the historical peninsula in the heart of Istanbul. Litera; It sees the junction of the Bosphorus, the historical peninsula and the Golden Horn from the best angle, and serves its guests as a terrace venue in all seasons with its wide view of the islands and more.",
+    "title4": "Accompany Your Special Moments",
+    "p6": "Litera Restaurant is also a perfect choice for your special events and celebrations. Birthdays, anniversaries, business lunches or romantic dinners... We accompany all your special moments with a special touch.",
+    "p7": "At Litera, which offers its guests taste and view as well as music-filled evenings, you can have a pleasant time with live music nights and DJ performance on Wednesday, Friday and Saturday evenings."
+  },
+  "MenuEn": {
+    "title": "MENU"
+  }
+}

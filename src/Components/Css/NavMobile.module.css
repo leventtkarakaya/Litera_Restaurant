@@ -1,0 +1,79 @@
+.menuIcon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #a48a7a;
+}
+
+.aside {
+  background-color: #a48a7a;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside__true {
+  transform: translateX(0);
+}
+
+.aside__false {
+  transform: translateX(100%);
+}
+.aside__container__times {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.menuIconTimes {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.aside__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  gap: 30px;
+  color: white;
+}
+
+.aside__container > .linkStyle {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.aside > .selectLanguage {
+  position: absolute;
+  bottom: 50px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #a48a7a;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.aside > .aside__logo {
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

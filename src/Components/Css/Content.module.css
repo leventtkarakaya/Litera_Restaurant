@@ -1,0 +1,15 @@
+.content {
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper > .swiperSlide > img {
+  object-fit: contain;
+  object-position: center;
+}

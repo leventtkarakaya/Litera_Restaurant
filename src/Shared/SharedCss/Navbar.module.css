@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Google Sans";
+}
+/*  Navbar */
+.container {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.inactive {
+  background-color: #a48a7a;
+  color: white;
+}
+
+.container > .navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.container > .navbarContainer > .logo > .logoLink > img {
+  width: 150px;
+}
+
+.container > .navbarContainer > .navbar > .containerNav > .linkStyle {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a48a7a;
+  cursor: pointer;
+}
+.container > .navbarContainer > .icons > {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container > .navbarContainer > .icons > a:visited {
+  color: black;
+}
+.container > .navbarContainer > .icons > a > i {
+  padding: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container > .navbarContainer > .icons > a > #facebook:hover {
+  color: #3b5998;
+}
+
+.container > .navbarContainer > .icons > a > #twitter:hover {
+  color: #00acee;
+}
+
+.container > .navbarContainer > .icons > a > #instagram:hover {
+  color: #e1306b;
+}
+
+.container > .navbarContainer > .icons > a > #linkedin:hover {
+  color: #0077b5;
+}
+
+.container > .navbarContainer > .icons > a > #youtube:hover {
+  color: #ff0000;
+}
+.language {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.language > .languageSelect {
+  color: #a48a7a;
+  outline: none;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+/*  Navbar */
+
+/* Media Queries */
+@media only screen and (max-width: 890px) {
+  .container > .navbarContainer > .navbar > .containerNav > .linkStyle {
+    display: none;
+  }
+  .container > .navbarContainer > .icons > a > i {
+    display: none;
+  }
+  .container > .navbarContainer > .icons > .language {
+    display: none;
+  }
+}
+@media only screen and (min-width: 890px) {
+  .container > .navbarContainer > .icons > .icons__span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .container > .navbarContainer > .icons > .icons__span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container > .navbarContainer > .icons > .icons__span > .icons__span_1 {
+    display: block;
+    border-bottom: 2px solid #a48a7a;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+  .container > .navbarContainer > .icons > .icons__span > .icons__span_2 {
+    display: block;
+    border-bottom: 2px solid #a48a7a;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+  .container > .navbarContainer > .icons > .icons__span > .icons__span_3 {
+    display: block;
+    border-bottom: 2px solid #a48a7a;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+}
+/* Media Queries */
