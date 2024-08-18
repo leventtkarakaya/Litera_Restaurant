@@ -1,0 +1,97 @@
+.container {
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.container > .container__blog {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container > .container__blog > .container__blog__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  padding: 5px;
+}
+
+.container > .container__blog > .container__blog__card > img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container
+  > .container__blog
+  > .container__blog__card
+  > .container__blog__card__text
+  > .title {
+  color: black;
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container
+  > .container__blog
+  > .container__blog__card
+  > .container__blog__card__text
+  > .date {
+  color: black;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.container
+  > .container__blog
+  > .container__blog__card
+  > .container__blog__card__text
+  > .text {
+  color: black;
+  font-family: "Google sans";
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+.container
+  > .container__blog
+  > .container__blog__card
+  > .container__blog__card__text
+  > .container__blog__card__text__btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.container
+  > .container__blog
+  > .container__blog__card
+  > .container__blog__card__text
+  > .container__blog__card__text__btn
+  > .btn {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: #a48a7a;
+  color: white;
+  border: none;
+  font-family: "Google sans";
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

@@ -22,3 +22,31 @@
   width: 400px;
   height: 400px;
 }
+
+/* Media Queries */
+@media only screen and (min-width: 480px) and (max-width: 890px) {
+  .container > .container__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 0px 50px;
+    width: 100%;
+    height: 100%;
+  }
+  .container > .container__images > a > img {
+    height: 300px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container > .container__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+/* Media Queries */

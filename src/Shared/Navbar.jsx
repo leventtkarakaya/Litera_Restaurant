@@ -21,7 +21,7 @@ export default function Navbar() {
     setCurrentLanguage(newLang);
     i18n.changeLanguage(newLang);
   };
-
+  let language = localStorage.getItem("i18nextLng");
   return (
     <>
       <div
@@ -67,8 +67,8 @@ export default function Navbar() {
                 onChange={(e) => handleLanguageChange(e.target.value)}
                 className={style.languageSelect}
               >
-                <option value="tr">TR</option>
-                <option value="en">EN</option>
+                <option value="tr">{language === "tr" ? "TR" : "TR"}</option>
+                <option value="en">{language === "en" ? "EN" : "EN"}</option>
               </select>
             </div>
           </div>

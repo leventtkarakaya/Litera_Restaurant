@@ -6,9 +6,9 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import style from "./Css/Content.module.css";
-import Resim from "/public/FatihŞubesi.png";
-import Resim1 from "/public/GaziosmanpaşaŞubesi.png";
-import Resim2 from "/public/KadıköyŞubesi.png";
+import Resim from "/FatihŞubesi.png";
+import Resim1 from "/GaziosmanpaşaŞubesi.png";
+import Resim2 from "/KadıköyŞubesi.png";
 
 export default function Content() {
   return (

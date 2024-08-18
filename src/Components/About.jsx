@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Css/About.module.css";
-import Image from "/public/ContentAreaImage.webp";
+import Image from "/ContentAreaImage.webp";
 import { useTranslation } from "react-i18next";
 export default function About() {
   const { t } = useTranslation();

@@ -1,0 +1,24 @@
+.container {
+  height: auto;
+  margin: 0 auto;
+}
+.container > .gallery {
+  width: 100%;
+  position: relative;
+}
+.container > .gallery > a > img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #a48a7a;
+  font-family: "Google Sans";
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  font-size: 40px;
+  margin: 20px 0px 20px 0px;
+}
