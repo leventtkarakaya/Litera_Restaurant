@@ -8,7 +8,6 @@ const locations = [
     name: "Litera Restaurant / Lounge-Bar",
     address:
       "Tomtom, Literarestaurant, Yeni Çarşı Cd. No:32/6, 34433 Beyoğlu/İstanbul",
-    rating: "4.5",
     pasition: [41.0329151, 28.978069],
     url: "",
   },
@@ -26,7 +25,9 @@ function getIcon() {
 export default function Map() {
   return (
     <>
-      <h1 className={style.container__title}>MAP</h1>
+      <h1 className={style.container__title} id="map">
+        MAP
+      </h1>
       <section id="map" className={style.container}>
         <MapContainer
           center={[41.0329151, 28.978069]}
@@ -47,9 +48,8 @@ export default function Map() {
             >
               <Popup>
                 <div>
-                  <p>{location.name}</p>
+                  <h2>{location.name}</h2>
                   <p>{location.address}</p>
-                  <p>{location.rating}</p>
                 </div>
               </Popup>
             </Marker>

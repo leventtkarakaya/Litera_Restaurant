@@ -33,6 +33,12 @@ const NavLinkTr = [
   },
   {
     id: 6,
+    name: "HARİTA",
+    path: "map",
+    offset: -50,
+  },
+  {
+    id: 7,
     name: "İLETİŞİM",
     path: "contact",
     offset: -50,
@@ -71,9 +77,14 @@ const NavLinkEn = [
     path: "gallery",
     offset: -50,
   },
-
   {
     id: 6,
+    name: "MAP",
+    path: "map",
+    offset: -50,
+  },
+  {
+    id: 7,
     name: "CONTACT",
     path: "contact",
     offset: -50,
