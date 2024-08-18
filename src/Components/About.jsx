@@ -7,7 +7,7 @@ export default function About() {
   const currentLanguage = localStorage.getItem("i18nextLng");
   return (
     <>
-      <h1 className={style.container__title}>
+      <h1 className={style.container__title} id="about">
         {currentLanguage === "en"
           ? `${t("AboutEn.title")}`
           : `${t("AboutTr.title")}`}

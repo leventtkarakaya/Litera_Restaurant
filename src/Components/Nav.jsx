@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
-import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
+
 const NavLinkTr = [
   {
     id: 1,
@@ -22,12 +21,18 @@ const NavLinkTr = [
   },
   {
     id: 4,
+    name: "MENÜ",
+    path: "menu",
+    offset: -50,
+  },
+  {
+    id: 5,
     name: "GALERİ",
     path: "gallery",
     offset: -50,
   },
   {
-    id: 5,
+    id: 6,
     name: "İLETİŞİM",
     path: "contact",
     offset: -50,
@@ -56,20 +61,27 @@ const NavLinkEn = [
 
   {
     id: 4,
+    name: "MENU",
+    path: "menu",
+    offset: -50,
+  },
+  {
+    id: 5,
     name: "GALLERY",
     path: "gallery",
     offset: -50,
   },
 
   {
-    id: 5,
+    id: 6,
     name: "CONTACT",
     path: "contact",
     offset: -50,
   },
 ];
 
-const Nav = ({ containerStyle, linkStyle, currentLanguage }) => {
+const Nav = ({ containerStyle, linkStyle }) => {
+  const currentLanguage = localStorage.getItem("i18nextLng");
   return (
     <nav className={`${containerStyle}`}>
       {currentLanguage && currentLanguage === "tr"

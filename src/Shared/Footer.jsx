@@ -5,11 +5,14 @@ import footerBackground from "/footerBackground.jpg";
 export default function Footer() {
   return (
     <>
-      <img src={footerBackground} alt="" className={style.background} />
-      <footer className={style.container}>
-        <aside>
-          <img src={Logo} alt="litera" />
-        </aside>
+      <img
+        src={footerBackground}
+        alt=""
+        className={style.background}
+        id="contact"
+      />
+      <footer id="footer" className={style.container}>
+        <img src={Logo} alt="litera" />
         <div className={style.container__nav}>
           <nav>
             <a href="#">Hakkımızda</a>

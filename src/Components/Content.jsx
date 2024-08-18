@@ -13,7 +13,7 @@ import Resim2 from "/KadıköyŞubesi.png";
 export default function Content() {
   return (
     <>
-      <div className={style.content}>
+      <div className={style.content} id="home">
         <Swiper
           slidesPerView={1}
           loop={true}

@@ -1,36 +1,4 @@
 {
-  "NavLinkTr": [
-    {
-      "id": "1",
-      "name": "ANA SAYFA",
-      "path": "home",
-      "offset": "-50"
-    },
-    {
-      "id": "2",
-      "name": "HAKKIMIZDA",
-      "path": "about",
-      "offset": "-50"
-    },
-    {
-      "id": "3",
-      "name": "BLOG",
-      "path": "blog",
-      "offset": "-50"
-    },
-    {
-      "id": "4",
-      "name": "GALERİ",
-      "path": "gallery",
-      "offset": "-50"
-    },
-    {
-      "id": "5",
-      "name": "İLETİŞİM",
-      "path": "contact",
-      "offset": "-50"
-    }
-  ],
   "AboutTr": {
     "title": "HAKKIMIZDA",
     "title1": "Lezzet ve Estetiğin Buluşma Noktası : LİTERA RESTAURANT",
@@ -47,5 +15,11 @@
   },
   "MenuTr": {
     "title": "MENÜ"
+  },
+  "BlogTr": {
+    "title": "Müdavim: Levent KARAKAYA",
+    "date": "11.03.2024",
+    "text": "Turk Edebiyatı'nın polisiye kalemlerinden usta yazar Levent KARAKAYA, restoranımız hakkında kaleme aldığımız düşüncelerini sizlerle başlıyoruz.",
+    "btn": "Devamı"
   }
 }

@@ -7,7 +7,7 @@ export default function Menu() {
 
   return (
     <>
-      <h1 className={style.container__title}>
+      <h1 className={style.container__title} id="menu">
         {currentLanguage === "en"
           ? `${t("MenuEn.title")}`
           : `${t("MenuTr.title")}`}

@@ -39,7 +39,7 @@ export default function Gallery() {
   return (
     <>
       <h1>GALLERY</h1>
-      <div className={style.container}>
+      <div className={style.container} id="gallery">
         <div className={style.gallery}>
           <ImageGallery
             items={images}

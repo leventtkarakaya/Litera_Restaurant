@@ -39,7 +39,7 @@
   font-family: "Lato";
   font-weight: 800;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 10px 0px 10px 0px;
 }
 .container
   > .container__blog
@@ -95,3 +95,16 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 890px) {
+  .container > .container__blog {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+}
+/* Media Queries */

@@ -3,9 +3,10 @@ import NavMobile from "../Components/NavMobile";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import style from "./SharedCss/Navbar.module.css";
+import tr from "/tr.svg";
+import en from "/en.svg";
 export default function Navbar() {
   const [active, setActive] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState("tr");
   const { t, i18n } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
@@ -18,10 +19,10 @@ export default function Navbar() {
   }, []);
 
   const handleLanguageChange = (newLang) => {
-    setCurrentLanguage(newLang);
     i18n.changeLanguage(newLang);
   };
   let language = localStorage.getItem("i18nextLng");
+  console.log("🚀 ~ Navbar ~ language:", language);
   return (
     <>
       <div
@@ -37,7 +38,6 @@ export default function Navbar() {
             <Nav
               containerStyle={style.containerNav}
               linkStyle={style.linkStyle}
-              currentLanguage={currentLanguage}
             />
           </div>
           <div className={style.icons}>
@@ -63,12 +63,14 @@ export default function Navbar() {
               <select
                 id="language"
                 name="language"
-                value={currentLanguage}
+                value={language || "tr"}
                 onChange={(e) => handleLanguageChange(e.target.value)}
                 className={style.languageSelect}
               >
-                <option value="tr">{language === "tr" ? "TR" : "TR"}</option>
-                <option value="en">{language === "en" ? "EN" : "EN"}</option>
+                <option value="tr" defaultValue={true}>
+                  TR
+                </option>
+                <option value="en">EN</option>
               </select>
             </div>
           </div>
