@@ -18,25 +18,25 @@ export default function Menu() {
             href="https://www.literarestaurant.com/images/65db0f41598d5.pdf"
             target="_blank"
           >
-            <img src="/public/Resim1.jpg" alt="Carte des menus" />
+            <img src="/Resim1.jpg" alt="Carte des menus" />
           </a>
           <a
             href="https://www.literarestaurant.com/images/65db0f15022da.pdf"
             target="_blank"
           >
-            <img src="/public/Resim2.jpg" alt="İçecekler" />
+            <img src="/Resim2.jpg" alt="İçecekler" />
           </a>
           <a
             href="https://www.literarestaurant.com/images/65db0f2f439b7.pdf"
             target="_blank"
           >
-            <img src="/public/Resim3.jpg" alt="Fikse Menü" />
+            <img src="/Resim3.jpg" alt="Fikse Menü" />
           </a>
           <a
             href="https://www.literarestaurant.com/images/65db0efb11dd1.pdf"
             target="_blank"
           >
-            <img src="/public/Resim4.jpg" alt="Davet Menü" />
+            <img src="/Resim4.jpg" alt="Davet Menü" />
           </a>
         </div>
       </div>
