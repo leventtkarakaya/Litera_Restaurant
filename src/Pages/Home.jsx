@@ -4,6 +4,7 @@ import About from "../Components/About";
 import Menu from "../Components/Menu";
 import Gallery from "../Components/Gallery";
 import Blog from "../Components/Blog";
+import Map from "../Components/Map";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <Menu />
       <Gallery />
       <Blog />
+      <Map />
     </>
   );
 }
