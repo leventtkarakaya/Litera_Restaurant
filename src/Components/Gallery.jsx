@@ -12,27 +12,27 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function Gallery() {
   const images = [
     {
-      original: Galler1, // Galler1 değişkenini kullanın
+      original: Galler1, 
       originalAlt: "Galler1",
     },
     {
-      original: Galler2, // Galler2 değişkenini kullanın
+      original: Galler2, 
       originalAlt: "Galler2",
     },
     {
-      original: Galler3, // Galler3 değişkenini kullanın
+      original: Galler3, 
       originalAlt: "Galler3",
     },
     {
-      original: Galler4, // Galler4 değişkenini kullanın
+      original: Galler4,
       originalAlt: "Galler4",
     },
     {
-      original: Galler5, // Galler5 değişkenini kullanın
+      original: Galler5,
       originalAlt: "Galler5",
     },
     {
-      original: Galler6, // Galler6 değişkenini kullanın
+      original: Galler6,
       originalAlt: "Galler6",
     },
   ];
